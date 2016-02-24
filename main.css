@@ -1,0 +1,85 @@
+.delete{
+	cursor: pointer;
+}
+.strike{
+	text-decoration: line-through;
+}
+/*.hide{
+	display: none;
+}*/
+
+/*/we dont need the class of hie because jquery has a hide function*/
+
+/* General styles */
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Slabo 27px', serif;
+	background-color: #f26649;
+	color: #9b9b9b;
+}
+h1 {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #f26649;
+	text-align: center;
+}
+.container {
+	background-color: #fff;
+	width: 80%;
+	margin: 25px auto;
+	padding: 30px;
+	border-radius: 10px;
+}
+/* Form styles */
+.form {
+	width: 50%;
+	margin: 50px auto;
+}
+form input {
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid #f26649;
+	font-size: 1.2em;
+	font-family: 'Slabo 27px', serif;
+	color: #9b9b9b;
+}
+form button {
+	margin-left: auto;
+	height: 40px;
+	width: 120px;
+	color: #f26649;
+	border: 2px solid #f26649;
+	border-radius: 10px;
+	background-color: #fff;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 1.1em;
+}
+form button:hover {
+	background-color: #f26649;
+	color: #fff;
+}
+p#warning {
+	padding-left: 10px;
+}
+/* List styles */
+.list {
+	width: 40%;
+	margin: 50px auto;
+}
+.list ul {
+	list-style: none;
+	padding: 0;
+	font-size: 1.2em;
+}
+.list li, form {
+	display: flex;
+	align-items: center;
+}
+span.delete {
+	margin-left: auto;
+	color: #f26649;
+	font-size: 1.5em;
+	font-family: 'Shadows Into Light Two', cursive;
+}
